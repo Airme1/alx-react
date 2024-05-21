@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+}
+
+h1 {
+  align-self: center;
+  color: rgb(211, 59, 59);
+  font-size: 2.7rem;
+}
+
+hr {
+  height: 0.3rem;
+  background-color: rgb(211, 59, 59);
+}
+
+.App-logo {
+  height: 35vmin;
+}
+
+.App-body {
+  margin-top: 3rem;
+  margin-bottom: 30rem;
+  margin-left: 3rem;  
+}
+
+.App-footer {
+  bottom: 0;
+  width: 100%;
+  opacity: 1;
+  background-color: #fff;
+}
+
+.App-footer p{
+  margin-top: 1rem;
+  text-align: center;
+  font-style: italic;
+}
+
+input{
+  height: 1.6rem;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0 0.3rem;
+  border-radius: 5px;
+}
+
+button{
+  font-size: 0.8em;
+  padding: 0 0.3em ;
+  border-radius: 5px;
+}
+
+label{
+  display: inline-block;
+  margin-top: 1rem;
+}
